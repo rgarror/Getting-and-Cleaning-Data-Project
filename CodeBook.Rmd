@@ -1,0 +1,85 @@
+---
+title: "CODEBOOK"
+output: html_document
+---
+
+##Code Book
+###Subject and Activity
+
+These variables identify the unique subject/activity pair the variables relate to:
+
+Subject: the integer subject ID.
+Activity: the string activity name:
+Walking
+Walking Upstairs
+Walking Downstairs
+Sitting
+Standing
+Laying
+Measurement Means
+
+All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
+ 
+
+Time domain body acceleration mean along X, Y, and Z:
+*timeBodyAccMagnitudeMean
+
+Time domain body acceleration standard deviation along X, Y, and Z:
+*timeBodyAccMagnitudeStdDev
+
+Time domain gravity acceleration mean along X, Y, and Z:
+*timeGravityAccMagnitudeMean
+
+Time domain gravity acceleration standard deviation along X, Y, and Z:
+*timeGravityAccMagnitudeStdDev
+
+Time domain body jerk mean along X, Y, and Z:
+*timeBodyAccJerkMagnitudeMean
+
+Time domain body jerk standard deviation along X, Y, and Z:
+*timeBodyAccJerkMagnitudeStdDev
+
+Time domain gyroscope mean along X, Y, and Z:
+*timeBodyGyroMagnitudeMean
+
+Time domain gyroscope standard deviation along X, Y, and Z:
+*timeBodyGyroMagnitudeStdDev
+
+Time domain gyroscope jerk mean along X, Y, and Z:
+*timeBodyGyroJerkMagnitudeMean
+
+Time domain gyroscope jerk standard deviation along X, Y, and Z:
+*timeBodyGyroJerkMagnitudeStdDev
+
+Time domain body acceleration magnitude mean:
+*freqBodyAccMagnitudeMean
+
+Time domain body acceleration magnitude standard deviation:
+*freqBodyAccMagnitudeStdDev
+
+Time domain gravity acceleration magnitude mean:
+*MeanTimeGravityAccMagMean
+
+Time domain gravity acceleration magnitude standard deviation:
+*MeanTimeGravityAccMagStdDev
+
+Frequency domain body acceleraton jerk magnitude mean:
+*freqBodyAccJerkMagnitudeMean
+
+Frequency domain body accelaration jerk magnitude standard deviation:
+*freqBodyAccJerkMagnitudeStdDev
+
+
+Frequency domain gyroscope magnitude mean:
+*freqBodyGyroMagnitudeMean
+
+Frequency domain gyroscope magnitude standard deviation:
+*freqBodyGyroMagnitudeStdDev
+
+
+Frequency domain gyroscope jerk magnitude mean:
+*freqBodyGyroJerkMagnitudeMean
+
+Frequency domain gyroscope jerk magnitude standard deviation:
+*freqBodyGyroJerkMagnitudeStdDev
+
